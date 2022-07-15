@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: -18px 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.rules{
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 0.85rem;
+  margin-top: 10000px;
+  color: #FEF2BF;
+  width: 60%;
+  margin: auto;
+}
+h3{
+  margin-top: 100px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+}
+.start{
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  font-weight: bold;
+  background-color: #6726b4;;
+}
+
+.rule-text{
+  width: 65%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.start-text{
+      color: #FEF2BF;
+      padding: 18px 0;
+}
+.bto{
+  margin: 10px;
+  display: inline-block;
+  border: 10px solid black;
+}
+
+.footer{
+    width: 65%;
+    margin: auto;
+    padding-bottom: 50px;
+    color: #aef2fd;
+    font-size: 0.75rem;
+    font-family: 'Lato', sans-serif;
+}
